@@ -1,30 +1,19 @@
 {
-  "name": "react-docker-blog",
+  "name": "server-blog",
   "version": "1.0.0",
-  "description": "React blog for docker for node js course",
+  "description": "server for the blog",
   "main": "index.js",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
-    "test": "lerna run test",
-    "new-version": "lerna version --conventional-commits --yes",
-    "diff": "lerna diff",
-    "commit": "cz"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/FacundoPalombo/react-docker-blog.git"
   },
   "keywords": [
-    "react",
-    "docker",
+    "server",
     "blog",
-    "frontend",
-    "backend",
-    "express",
-    "nodejs"
+    "monorepo"
   ],
   "author": "Facundo Palombo <facundo.palombo@gmail.com>",
   "license": "MIT",
@@ -32,7 +21,12 @@
     "url": "https://github.com/FacundoPalombo/react-docker-blog/issues"
   },
   "homepage": "https://github.com/FacundoPalombo/react-docker-blog#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "morgan": "^1.10.0",
+    "prettier": "^2.2.1",
+    "winston": "3.3.3"
   }
 }
