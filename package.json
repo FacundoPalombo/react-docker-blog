@@ -1,0 +1,28 @@
+{
+  "name": "react-docker-blog",
+  "version": "1.0.0",
+  "description": "React blog for docker for node js course",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FacundoPalombo/react-docker-blog.git"
+  },
+  "keywords": [
+    "react",
+    "docker",
+    "blog",
+    "frontend",
+    "backend",
+    "express",
+    "nodejs"
+  ],
+  "author": "Facundo Palombo <facundo.palombo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FacundoPalombo/react-docker-blog/issues"
+  },
+  "homepage": "https://github.com/FacundoPalombo/react-docker-blog#readme"
+}
