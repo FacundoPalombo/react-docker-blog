@@ -33,6 +33,6 @@
   },
   "homepage": "https://github.com/FacundoPalombo/react-docker-blog#readme",
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "3.22.1"
   }
 }
